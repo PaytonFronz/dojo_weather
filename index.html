@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="menu">
+                <ul id="cities" onclick="alert('Loading weather report...')">
+                    <li>Burbank</li>
+                    <li>Chicago</li>
+                    <li>Dallas</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- current location -->
+    <div class="location flexed2">
+        <h2>San Jose</h2>
+        <div class="degreeclicker">
+            <p>Show Temperature in</p>
+            <select>
+                <option>°C</option>
+                <option onclick="convTemp()">°F</option>
+            </select>
+        </div>
+    </div>
+    <!-- current location end -->
+    <!-- all content start -->
+    <div class="container">
+        <!-- aside content starts -->
+        <aside class="flexed">
+            <div class="aside_content">
+                <p class="dayofweek">Today</p>
+                <img src="./assets/some_rain.png" class="weatherimg" alt="rain">
+                <p class="dayofweek">Some Rain</p>
+                <p class="temphigh">24°</p>
+                <p class="templow">18°</p>
+            </div>
+        </aside>
+        <aside class="flexed">
+            <div class="aside_content">
+                <p class="dayofweek">Tomorrow</p>
+                <img src="./assets/some_sun.png" class="weatherimg" alt="sun">
+                <p class="dayofweek">Some Sun</p>
+                <p class="temphigh">27°</p>
+                <p class="templow">19°</p>
+            </div>
+        </aside>
+        <aside class="flexed">
+            <div class="aside_content">
+                <p class="dayofweek">Friday</p>
+                <img src="./assets/some_clouds.png" class="weatherimg" alt="clouds">
+                <p class="dayofweek">Some Clouds</p>
+                <p class="temphigh">21°</p>
+                <p class="templow">16°</p>
+            </div>
+        </aside>
+        <aside class="flexed">
+            <div class="aside_content">
+                <p class="dayofweek">Sunday</p>
+                <img src="./assets/some_sun.png" class="weatherimg" alt="sun">
+                <p class="dayofweek">Some Sun</p>
+                <p class="temphigh">26°</p>
+                <p class="templow">21°</p>
+            </div>
+        </aside>
+        <!-- aside content ends -->
+    </div>
+    <!-- all content end -->
+    <div class="cookiesbanner flexed">
+            <img src="./assets/cookie.png" alt="cookie alert">
+            <div class="cookiescontent">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                    features and to analyse our traffic. <a href="">Read more...</a></p>
+            </div>
+            <button onclick="hide()" class="acceptbtn">I accept</button>
+    </div>
+    <!-- footer starts -->
+    <footer></footer>
+    <!-- footer ends -->
+    <script src="script.js"></script>
+</body>
+
+</html>
