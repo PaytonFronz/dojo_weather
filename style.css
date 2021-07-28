@@ -73,7 +73,7 @@ h2{
     justify-content: center;
     align-items: center;
   }
-  .templow{
+  .templow1{
     color: blue;
     position: relative;
     left: 100px;
@@ -81,7 +81,52 @@ h2{
     font-size: larger;
     margin: 0 auto;
   }
-  .temphigh{
+  .templow2{
+    color: blue;
+    position: relative;
+    left: 100px;
+    bottom: 27px;
+    font-size: larger;
+    margin: 0 auto;
+  }
+  .templow3{
+    color: blue;
+    position: relative;
+    left: 100px;
+    bottom: 27px;
+    font-size: larger;
+    margin: 0 auto;
+  }
+  .templow4{
+    color: blue;
+    position: relative;
+    left: 100px;
+    bottom: 27px;
+    font-size: larger;
+    margin: 0 auto;
+  }
+  .temphigh1{
+    color: red;
+    position: relative;
+    left: 50px;
+    font-size: larger;
+    margin: 0 auto;
+  }
+  .temphigh2{
+    color: red;
+    position: relative;
+    left: 50px;
+    font-size: larger;
+    margin: 0 auto;
+  }
+  .temphigh3{
+    color: red;
+    position: relative;
+    left: 50px;
+    font-size: larger;
+    margin: 0 auto;
+  }
+  .temphigh4{
     color: red;
     position: relative;
     left: 50px;
@@ -114,4 +159,8 @@ h2{
   footer {
     background-color: rgb(163, 163, 163);
     min-height: 100px;
+  }
+  /* JS elements */
+  .cookiesbanner.hide{
+    display: none;
   }
