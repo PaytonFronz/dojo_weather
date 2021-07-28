@@ -31,9 +31,9 @@
         <h2>San Jose</h2>
         <div class="degreeclicker">
             <p>Show Temperature in</p>
-            <select>
-                <option>°C</option>
-                <option onclick="convTemp()">°F</option>
+            <select onchange="changeTemp(this)">
+                <option value="first">°C</option>
+                <option value="second">°F</option>
             </select>
         </div>
     </div>
@@ -46,8 +46,8 @@
                 <p class="dayofweek">Today</p>
                 <img src="./assets/some_rain.png" class="weatherimg" alt="rain">
                 <p class="dayofweek">Some Rain</p>
-                <p class="temphigh">24°</p>
-                <p class="templow">18°</p>
+                <p class="temphigh1">24°</p>
+                <p class="templow1">18°</p>
             </div>
         </aside>
         <aside class="flexed">
@@ -55,8 +55,8 @@
                 <p class="dayofweek">Tomorrow</p>
                 <img src="./assets/some_sun.png" class="weatherimg" alt="sun">
                 <p class="dayofweek">Some Sun</p>
-                <p class="temphigh">27°</p>
-                <p class="templow">19°</p>
+                <p class="temphigh2">27°</p>
+                <p class="templow2">19°</p>
             </div>
         </aside>
         <aside class="flexed">
@@ -64,8 +64,8 @@
                 <p class="dayofweek">Friday</p>
                 <img src="./assets/some_clouds.png" class="weatherimg" alt="clouds">
                 <p class="dayofweek">Some Clouds</p>
-                <p class="temphigh">21°</p>
-                <p class="templow">16°</p>
+                <p class="temphigh3">21°</p>
+                <p class="templow3">16°</p>
             </div>
         </aside>
         <aside class="flexed">
@@ -73,8 +73,8 @@
                 <p class="dayofweek">Sunday</p>
                 <img src="./assets/some_sun.png" class="weatherimg" alt="sun">
                 <p class="dayofweek">Some Sun</p>
-                <p class="temphigh">26°</p>
-                <p class="templow">21°</p>
+                <p class="temphigh4">26°</p>
+                <p class="templow4">21°</p>
             </div>
         </aside>
         <!-- aside content ends -->
@@ -87,7 +87,7 @@
                 <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
                     features and to analyse our traffic. <a href="">Read more...</a></p>
             </div>
-            <button onclick="hide()" class="acceptbtn">I accept</button>
+            <button onclick="hide(this)" class="acceptbtn">I accept</button>
     </div>
     <!-- footer starts -->
     <footer></footer>
