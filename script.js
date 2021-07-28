@@ -1,9 +1,9 @@
 // hiding pop up cookies notif when accept btn is clicked
+var cookiesNotif = document.querySelector(".cookiesbanner");
+console.log(cookiesNotif);
 
-var cookiesbanner = document.querySelector(".cookiesbanner");
-
-function hide(.cookiesbanner) {
-    cookiesbanner.classList.add("hide");
+function hide(element){
+    var element = cookiesNotif
 }
 
 
